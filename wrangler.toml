@@ -1,0 +1,23 @@
+name = "rwa-payment-backend"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+
+# 数据库绑定
+[[kv_namespaces]]
+binding = "DB"
+id = "0ef8857cb78049e28704bb1850996715" # 你之前生成的那个ID
+
+[vars]
+# --- 链配置 ---
+CHAIN_ID = "97"  # BSC测试网
+BSC_RPC = "https://data-seed-prebsc-1-s1.binance.org:8545"
+
+# --- 业务合约配置 ---
+# ALX 代币地址 (你要转给用户的币)
+ALX_CONTRACT_ADDRESS = "0x914aeAf8201d83A4A43486Cc30E6c30ea42D66cE" 
+
+# USDT 代币地址 (用于在 LP 中锚定价格)
+USDT_CONTRACT_ADDRESS = "0x8bA3b721D41447038dD9408fdeC8501ab93d896C"
+
+# LP 交易对地址 (PancakeSwap V2 Pair: ALX/USDT)
+PAIR_ADDRESS = "0x433B630A60BA8c3c611d223C2f54627556F01260"

@@ -1,0 +1,33 @@
+{
+  "name": "rwa-payment",
+  "version": "1.0.0",
+  "description": "RWA Payment Gateway on Cloudflare Workers",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "kv:create": "wrangler kv:namespace create RWA_PAYMENT_DB",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slwyts/rwa-payment.git"
+  },
+  "keywords": [
+    "web3",
+    "cloudflare-workers",
+    "viem",
+    "bsc"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "viem": "^2.39.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251121.0",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.50.0"
+  }
+}
