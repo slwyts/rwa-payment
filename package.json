@@ -1,7 +1,7 @@
 {
   "name": "rwa-payment",
   "version": "1.0.0",
-  "description": "RWA Payment Gateway on Cloudflare Workers",
+  "description": "RWA Payment Gateway",
   "main": "src/index.ts",
   "type": "module",
   "scripts": {

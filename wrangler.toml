@@ -7,20 +7,10 @@ binding = "DB"
 id = "0ef8857cb78049e28704bb1850996715"
 
 [vars]
-CHAIN_ID = "56"  # BSC主网
+CHAIN_ID = "56"
 BSC_RPC = "https://bsc-dataseed.binance.org"
-
-# ALX 代币地址
 ALX_CONTRACT_ADDRESS = "0x0a9461D0044C489b73D436c2b9e3888279Ad117a" 
-
-# USDT 代币地址
 USDT_CONTRACT_ADDRESS = "0x55d398326f99059fF775485246999027B3197955"
-
-# ETH 主网 RPC (用于读取 Chainlink 预言机)
 ETH_RPC = "https://ethereum-rpc.publicnode.com"
-
-# Chainlink CNY/USD Feed (ETH Mainnet)
 CHAINLINK_ORACLE_ADDRESS = "0xeF8A4aF35cd47424672E3C590aBD37FBB7A7759a"
-
-# LP 交易对地址 (PancakeSwap V2 Pair: ALX/USDT)
 PAIR_ADDRESS = "0xFf8a475fb2B7bCA40eb420805BA5A0F18dc1Df40"
